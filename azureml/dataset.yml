@@ -1,5 +1,5 @@
 $schema: https://azuremlschemas.azureedge.net/latest/asset.schema.json
 name: mnist-tiny
 version: 1
-local_path: ../data/
+local_path: ../data/train/
 description: Tiny MNIST sample dataset

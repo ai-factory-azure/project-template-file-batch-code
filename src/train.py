@@ -7,7 +7,7 @@ import fastai.vision as vis
 def parse_args():
     parser = argparse.ArgumentParser(description="Fasti.ai MNIST example")
     parser.add_argument("--epochs", type=int, default=5, help="Number of epochs (default: 5). Note it takes about 1 min per epoch")
-    parser.add_argument("--data_path", type=str, default='data/', help="Directory path to training data")
+    parser.add_argument("--data_path", type=str, default='data/train/', help="Directory path to training data")
     parser.add_argument("--model_path", type=str, default='outputs/', help="Model output directory")
     return parser.parse_args()
 
